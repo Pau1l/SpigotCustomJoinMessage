@@ -11,7 +11,7 @@ public class EventLstnr implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event){
         Player player = event.getPlayer();
-
+        //adding a comment to check the commit
         switch (player.getName()){
             case "YourNicknameHere":
                 event.setJoinMessage(ChatColor.LIGHT_PURPLE + player.getName() + ChatColor.WHITE + " has joined " + ChatColor.AQUA + "YourServerNameHere");
