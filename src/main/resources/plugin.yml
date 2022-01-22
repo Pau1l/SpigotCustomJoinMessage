@@ -1,0 +1,4 @@
+name: Plugin1
+version: '${project.version}'
+main: Plugin1.Main
+api-version: 1.18
